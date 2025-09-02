@@ -19,7 +19,7 @@ for i in range(len(bd)):
         
         letter = letter.replace("[NAME]", name)
 
-        with smtplib.SMTP("smtp.gmail.com", 587) as connection:
+        with smtplib.SMTP("smtp.gmail.com", 587) as connection: ## you can edits this for other mail
                 connection.starttls()
                 connection.login(user=my_email, password=password)
                 connection.sendmail(from_addr=my_email, 
