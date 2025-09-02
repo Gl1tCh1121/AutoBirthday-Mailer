@@ -3,8 +3,8 @@ import smtplib
 import random
 import datetime as dt
 
-my_email = "babutech1121@gmail.com" 
-password = "jkkx cwmp fths afqy"
+my_email = "test@gmail.com" # your mail
+password = "test test" # your password
 bd = pandas.read_csv("birthdays.csv")
 now = dt.datetime.now()
 
