@@ -22,7 +22,7 @@
 
 
 <h2> Project Structure</h2>
-
+ 
 <pre>
 📦 birthday-email-sender/
  ┣ 📂 letter_templates/    # Birthday message templates
